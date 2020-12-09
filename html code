@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark and light mode</title>
+</head>
+<body>
+    <section>
+        <h1>Search Techno_web12 on Instagrm to get webdev Stuff</h1>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae labore asperiores, repellat totam nemo earum voluptate, similique voluptates perspiciatis ipsam, praesentium saepe! Quae totam exercitationem suscipit. Velit, magnam voluptate. Praesentium!</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates praesentium autem incidunt beatae velit voluptatum nobis, laudantium, vero perferendis est totam quasi minus facilis fugit qui. Corporis labore similique nobis.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, non doloribus eius, nulla, ex in nobis laudantium dolores ab enim velit. Ratione accusantium officia maxime. Quidem est voluptatibus accusantium asperiores.</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quas omnis natus harum atque dicta eligendi. Accusantium eos, odit culpa doloremque voluptate eligendi facere laborum, neque, fugit tenetur labore perferendis?</p>
+    </section>
+    <ul>
+   <li>
+<span>Dark</span>
+<span>light</span>
+    </li>
+    </ul> 
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+   $('ul').click(function(){
+    $('ul').toggleClass('active')
+    $('section').toggleClass('dark')
+   })
+  })
+</script>
+</body>
+</html>
